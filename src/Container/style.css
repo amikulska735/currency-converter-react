@@ -1,0 +1,8 @@
+.body__form {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 650px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+  }
