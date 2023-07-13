@@ -27,10 +27,8 @@ import Result from "../Result";
     <form onSubmit={onSubmit}>
       <fieldset className="form__fieldset">
         <legend className="form__legend">Kalkulator</legend>
-       
-        
-        <p>
-          <label>
+          <p>
+           <label>
             <span className="form__labelText"> Kwota do przeliczenia:</span>
             <input
               value={amount}
@@ -43,10 +41,10 @@ import Result from "../Result";
               required
               placeholder="Wpisz kwotę w zł"
             />
-          </label>
-        </p>
-        <p>
-          <label>
+           </label>
+          </p>
+          <p>
+           <label>
             <span className="form__labelText"> Waluta : </span>
             <select
               className="form__field"
@@ -55,17 +53,19 @@ import Result from "../Result";
               onChange={({ target }) => setCurrency(target.value)}
             >
               {currencies.map((currency) => (
-                <option key={currency.code} value={currency.code}>
+                <option 
+                  key={currency.code} 
+                  value={currency.code}>
                   {currency.id}
                 </option>
               ))}
             </select>
-          </label>
-        </p>
-        <button className="form__button">Przelicz</button>
-        <p>
-          <Result result={result} />
-        </p>
+           </label>
+          </p>
+          <button className="form__button">Przelicz</button>
+           <p>
+            <Result result={result} />
+          </p>
       </fieldset>
     </form>
   );

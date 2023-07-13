@@ -4,6 +4,7 @@ import Header from "./Header";
 import Container from "./Container";
 
 function App({ result, calculateRate }) {
+
   return (
     <Container>
       <Header title="Prosty przelicznik wymiany walut" />
