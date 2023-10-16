@@ -1,3 +1,4 @@
+import "./style.css";
 import { useState, useEffect } from "react";
 const formatDate = (date) =>
   date.toLocaleString(undefined, {
@@ -22,7 +23,7 @@ const Clock = () => {
     };
   }, []);
 
-  return <p>Dzisiaj jest {formatDate(date)}</p>;
+  return <p className="clock">Dzisiaj jest {formatDate(date)}</p>;
 };
 
 export default Clock;
