@@ -7,7 +7,7 @@
 https://amikulska735.github.io/currency-converter-react/
 
 ## Description
-This is my second project created for a programming course. This project converts PLN to GBP, USD and EUR.
+This is my second project created for a programming course. This project converts PLN to GBP, USD and EUR. You can see a current date.
 
 ## Used features
 HTML, CSS, JavaScript, BEM convention, Git, Node.js, Webpack, Babel, JSX.
